@@ -1,0 +1,36 @@
+{
+  "name": "not-memory-fs",
+  "version": "0.1.0",
+  "description": "A descendant of MemoryFileSystem that persists to disk instead of memory",
+  "keywords": [
+    "memory-fs"
+  ],
+  "homepage": "https://github.com/jeremejevs/not-memory-fs",
+  "bugs": "https://github.com/jeremejevs/not-memory-fs/issues",
+  "license": "CC0-1.0",
+  "author": "Olegs Jeremejevs <olegs@jeremejevs.com>",
+  "main": "index.js",
+  "repository": "jeremejevs/not-memory-fs",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ignore-pattern !.eslintrc.js .",
+    "sort": "sort-package-json"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "memory-fs": "^0.4.1",
+    "prettier": "1.11.1",
+    "sort-package-json": "^1.11.0",
+    "webpack": "^4.1.0",
+    "webpack-serve": "^0.1.5"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
